@@ -45,3 +45,21 @@
 .weather-desc {
   font-size: 30px;
 }
+
+
+@media screen and (max-width: 1200px) {
+  .image-container {
+    width: 100%;
+  }
+  .current-weather-city-photo {
+    flex-direction: column;
+  }
+  .weather-app {
+    font-size: 60px;
+    text-align: center;
+  }
+  .weather-desc {
+    font-size: 20px;
+    text-align: center;
+  }
+}

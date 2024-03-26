@@ -54,3 +54,12 @@
 .daily-details-item label:last-child {
     color: black;
 }
+
+@media screen and (max-width: 1200px) {
+    .icon-small {
+        width: 50px;
+    }
+    .day, .description, .minmax {
+        font-size: 14px;
+    }
+}

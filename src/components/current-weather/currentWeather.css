@@ -61,3 +61,32 @@
     font-weight: 600;
     font-size: 26px;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .weather {
+        width: 100%;
+        height: 170px;
+    }
+    .cityName {
+        font-size: 18px;
+    }
+    .weather-description {
+        font-size: 16px;
+    }
+    .weather-icon {
+        width: 80px;
+    }
+    .temperature {
+        font-size: 50px;
+    }
+    .parameter-label {
+        font-size: 14px;
+    }
+    .parameter-value {
+        font-size: 14px;
+    }
+    .weather {
+        padding: 20px;
+    }
+}
